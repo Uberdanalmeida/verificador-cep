@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#Project {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    height: 289px;
+    width: 500px;
+}
+
+#local {
+    padding-top: 40px;
+}
+
+#cep {
+    width:200px
+}
+
+button {
+    background-color: #007AFF;
+    color: #fff;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#resul {
+    padding: 20px;
+    line-height: 1.8;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+}
+
+@media (max-width: 480px) {
+    
+    body {
+        background-image: url(Imagens/busca-cep.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    #cep, button {
+        padding: 10px 0 10px 0;
+        text-align: center;
+        display: block;
+        width: 283px;
+        margin: 5px auto;
+        border-radius: 10px;
+    }
+
+    #cep {
+        border: 1px solid #007AFF;
+    }
+
+    #Project {
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #resul {
+        margin: 15px;
+        background-color: #ffff;
+        color: black;
+        font-weight: 500;
+    }
+
+    h1 {
+        font-weight: 900;
+    }
+}
