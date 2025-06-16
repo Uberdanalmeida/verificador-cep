@@ -76,6 +76,7 @@ input, button {
     }
 
     #Project {
+        height: 58%;
         width: 80%;
         background-color: rgb(255, 255, 255);
     }
