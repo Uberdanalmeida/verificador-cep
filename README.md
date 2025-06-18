@@ -1,4 +1,4 @@
-![Verificador de idade](imagens/verificar-cep.png)
+![Verificador de CEPs](imagens/verificador-cep.png)
 
 # 🔍 Verificador de CEPs
 
