@@ -1,4 +1,4 @@
-![Verificador de CEPs](imagens/verificador-cep.png)
+![Verificador de CEPs](Imagens/verificador-cep.png)
 
 # 🔍 Verificador de CEPs
 
